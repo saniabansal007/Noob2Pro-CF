@@ -117,9 +117,6 @@ UserSession contains data for a single user. The tool analyses multiple users se
 - `to_html`: rendering clickable hyperlinks in the recommendations table.
 - `json_normalize`: flattening nested API JSON into tabular form.
 
-### A glance from test run:
-![alt text](image-1.png)
-
 ### SciPy
 - **`scipy.stats.linregress`**: 
   - `rating_trend`: OLS over contest rating history (slope, intercept, R²).
@@ -134,7 +131,6 @@ Seven distinct chart types using:
 - `ax.pie` with `autopct` for pie charts.
 - `ax.plot` 
 - `ax.imshow` with `RdYlGn` colormap, `plt.colorbar` for heatmap
-![alt text](image.png)
 
 ### File I/O
 - `os.makedirs`: directory creation.
